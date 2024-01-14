@@ -64,6 +64,9 @@
         }
     }
     .menu{
+        position: sticky;
+        background-color: white;
+        top: -10px;
         padding: 20px;
         display: grid;
         grid-template-columns: auto auto auto;
@@ -108,7 +111,7 @@
               
               .dropdown-content a:hover {background-color: #ddd; }
               
-              .dropdown:hover .dropdown-content {display: block;}
+              .dropdown:hover .dropdown-content {display: block; background-color: white;}
               
               .dropdown:hover .dropbtn {color: #04CE78; background-color: white;transition: 3ms}
         }

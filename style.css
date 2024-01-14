@@ -63,6 +63,9 @@
 }
 
 .menu {
+  position: sticky;
+  background-color: white;
+  top: -10px;
   padding: 20px;
   display: grid;
   grid-template-columns: auto auto auto;
@@ -108,6 +111,7 @@
 }
 .menu .menu-buttons .dropdown:hover .dropdown-content {
   display: block;
+  background-color: white;
 }
 .menu .menu-buttons .dropdown:hover .dropbtn {
   color: #04CE78;
